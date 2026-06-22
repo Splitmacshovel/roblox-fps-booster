@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320">
+  <defs>
+    <linearGradient id="robloxfpsboosterbnBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#1c1c1c"/>
+    </linearGradient>
+    <linearGradient id="robloxfpsboosterbnAc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2231a"/>
+      <stop offset="100%" stop-color="#ff6b6b"/>
+    </linearGradient>
+    <filter id="robloxfpsboosterbnSh">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <pattern id="robloxfpsboosterbnGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#21262d" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#robloxfpsboosterbnBg)"/>
+  <rect width="1280" height="320" fill="url(#robloxfpsboosterbnGrid)" opacity="0.35"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#robloxfpsboosterbnAc)"/>
+  <rect x="0" y="316" width="1280" height="4" fill="url(#robloxfpsboosterbnAc)"/>
+  <ellipse cx="150" cy="160" rx="120" ry="90" fill="#e2231a" opacity="0.07"/>
+  <ellipse cx="1130" cy="160" rx="120" ry="90" fill="#ff6b6b" opacity="0.07"/>
+
+  <g transform="translate(64,108)" filter="url(#robloxfpsboosterbnSh)">
+    <rect x="6" y="6" width="52" height="52" rx="8" fill="#e2231a" transform="rotate(-12 32 32)"/>
+    <rect x="16" y="16" width="32" height="32" rx="5" fill="#ff6b6b" transform="rotate(-12 32 32)"/>
+  </g>
+  <text x="160" y="138" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1" fill="#ffffff">Roblox</text>
+  <text x="160" y="198" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1" fill="url(#robloxfpsboosterbnAc)">FPS Booster</text>
+  <text x="162" y="238" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#8b949e">Lightweight Windows tool to reduce stutter and unlock smoother Roblox performa…</text>
+  <g transform="translate(160,258)">
+    <rect x="0" y="0" width="132" height="32" fill="#21262d" rx="16" stroke="#30363d"/>
+    <text x="16" y="21" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#e2231a" font-weight="600">Windows 10 / 11</text>
+    <rect x="146" y="0" width="88" height="32" fill="#21262d" rx="16" stroke="#30363d"/>
+    <text x="162" y="21" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#ff6b6b" font-weight="600">One-Click</text>
+    <rect x="248" y="0" width="72" height="32" fill="#21262d" rx="16" stroke="#30363d"/>
+    <text x="264" y="21" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#39d353" font-weight="600">Free</text>
+  </g>
+</svg>
